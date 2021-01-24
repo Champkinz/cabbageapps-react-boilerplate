@@ -1,6 +1,6 @@
 # cabbageapps-react-boilerplate
 
-###WIP
+**WIP**
 
 use Yarn,
 
