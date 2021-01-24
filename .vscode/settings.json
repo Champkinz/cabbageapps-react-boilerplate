@@ -1,0 +1,29 @@
+{
+  "antdRush.language": "English",
+  "mocha.requires": ["ts-node/register", "source-map-support/register"],
+  "mocha.files.glob": "src/**/*.spec.ts",
+  "cSpell.words": [
+    "SINHALA",
+    "antd",
+    "esnext",
+    "persistor",
+    "semibold",
+    "serializable",
+    "uuidv"
+  ],
+  "tailwindCSS.emmetCompletions": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "eslint.options": {},
+  "eslint.codeActionsOnSave.mode": "all",
+  "eslint.run": "onType",
+  "files.exclude": {
+    "node_modules": true,
+    "archive": false
+  },
+  "editor.suggest.insertMode": "replace",
+  "editor.suggest.showStatusBar": true
+}

@@ -1,0 +1,23 @@
+@import "./@libs/breakpoints/breakpoints.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.fill {
+  flex: 1;
+}
+
+.disabled-card {
+  width: 100%;
+  height: 100%;
+  background: #ffffffc4;
+  position: absolute;
+  z-index: 9;
+  left: 0;
+  top: 0;
+  cursor: not-allowed;
+}

@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "react-app"
+    ],
+    "rules": {
+        "object-shorthand": "warn"
+    },
+    "overrides": [
+        {
+            "files": [
+                "**/*.ts?(x)"
+            ],
+            "rules": {}
+        }
+    ]
+}
