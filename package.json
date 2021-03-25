@@ -37,13 +37,12 @@
     ]
   },
   "dependencies": {
-    "@auth0/auth0-react": "^1.0.0",
-    "@auth0/auth0-spa-js": "^1.8.0",
+    "@azure/msal-browser": "^2.13.0",
+    "@microsoft/microsoft-graph-client": "^2.2.1",
     "@reduxjs/toolkit": "^1.2.5",
     "@types/recharts": "^1.8.16",
     "@types/styled-components": "^5.1.0",
     "animate.css": "^3.7.2",
-    "antd": "4.9.0",
     "auto-bind": "^4.0.0",
     "axios": "^0.19.2",
     "bind-methods": "^1.1.0",
@@ -75,7 +74,8 @@
     "redux-watch": "^1.1.1",
     "reselect": "^4.0.0",
     "styled-components": "^5.1.1",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
+    "windows-iana": "^5.0.1"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
